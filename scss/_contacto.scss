@@ -1,5 +1,17 @@
-.row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.formulario {
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+
+  .col {
+    padding: 20px;
+  }
+}
+.form-floating {
+  margin: 0 auto;
+  width: 85%;
+}
+.col-12 {
+  padding: 20px;
+  text-align: center;
 }
