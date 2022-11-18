@@ -15,7 +15,40 @@
   width: 85%;
 }
 .col-12 {
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   text-align: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  font-style: italic;
+  color: $color-primary;
+
+  .red {
+    padding-right: 20px;
+  }
+
+  .instagram {
+    height: 10vh;
+  }
+}
+
+.tiozombie {
+  font-size: 30px;
+  text-decoration: none;
+  font-style: italic;
+  color: $color-primary;
+}
+section {
+  background-color: black;
+  color: $color-primary;
+  text-align: center;
+  .cordoba {
+    font-size: 2vh;
+  }
+}
+.coop {
+  font-size: 2vh;
 }
