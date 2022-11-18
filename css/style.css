@@ -6,4 +6,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */
