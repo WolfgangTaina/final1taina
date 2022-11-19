@@ -6,6 +6,22 @@
   font-family: "Montserrat", sans-serif;
 }
 
+main {
+  width: 100%;
+  background-image: url("../imagenes/fondorojo.jpg");
+}
+
+.titulo {
+  color: white;
+  font-style: oblique;
+  text-align: center;
+}
+
+.feria {
+  height: 90vh;
+  width: 100%;
+}
+
 .fondoestrella {
   background-image: url("../imagenes/fondorojo.jpg");
 }
@@ -62,6 +78,7 @@ section .cordoba {
 
 .coop {
   font-size: 2vh;
+  padding-bottom: 2vh;
 }
 
 /*# sourceMappingURL=style.css.map */
