@@ -1,0 +1,91 @@
+/*galeria*/
+
+@media screen and (max-width: 480px) {
+  .fotos {
+    height: 150vh;
+
+    .foto1 {
+      animation-delay: 200ms;
+    }
+
+    .foto2 {
+      animation-delay: 200ms;
+    }
+
+    .foto3 {
+      animation-delay: 2s;
+    }
+
+    .foto4 {
+      animation-delay: 2s;
+    }
+
+    .foto5 {
+      animation-delay: 6s;
+    }
+
+    .foto6 {
+      animation-delay: 6s;
+    }
+
+    .foto7 {
+      animation-delay: 10s;
+    }
+
+    .foto8 {
+      animation-delay: 10s;
+    }
+
+    .foto9 {
+      animation-delay: 13s;
+    }
+
+    .foto10 {
+      animation-delay: 13s;
+    }
+  }
+}
+
+/*contacto*/
+
+.formulario {
+  width: 90%;
+}
+.footer {
+  display: block;
+  background-color: black;
+  .seguinos {
+    font-size: 50px;
+  }
+  .red {
+    padding-right: 20px;
+  }
+
+  .instagram {
+    height: 10vh;
+  }
+}
+
+.tiozombie {
+  font-size: 30px;
+  text-decoration: none;
+  font-style: italic;
+  color: $color-primary;
+}
+section {
+  background-color: black;
+
+  text-align: center;
+  color: $color-primary;
+
+  .cordoba {
+    font-size: 2vh;
+  }
+}
+.coop {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  font-size: 2vh;
+  padding-bottom: 2vh;
+}

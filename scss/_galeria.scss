@@ -1,7 +1,15 @@
+@mixin fotogaleria {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-animation: roll-in-left 0.6s ease-out both;
+  animation: roll-in-left 0.6s ease-out both;
+}
+
 .fotos {
   display: grid;
   width: 100%;
-  height: 400vh;
+  height: 500vh;
   grid-template-columns: 1fr (x7);
   grid-template-rows: 1fr (x14);
   grid-template-areas:
@@ -20,109 +28,77 @@
     ".... foto9 foto9 .... .... .... ...."
     ".... foto9 foto9 .... foto10 foto10 ...."
     ".... .... .... .... foto10 foto10 ....";
-}
 
-.foto1 {
-  grid-area: foto1;
-  background-image: url("../imagenes/foto1.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-animation: roll-in-left 0.6s ease-out both;
-  animation: roll-in-left 0.6s ease-out both;
-  animation-delay: 200ms;
-}
+  .foto1 {
+    grid-area: foto1;
+    background-image: url("../imagenes/foto1.jpeg");
+    @include fotogaleria();
 
-.foto2 {
-  grid-area: foto2;
-  background-image: url("../imagenes/foto2.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-animation: roll-in-left 0.6s ease-out both;
-  animation: roll-in-left 0.6s ease-out both;
-  animation-delay: 1s;
-}
+    animation-delay: 200ms;
+  }
 
-.foto3 {
-  grid-area: foto3;
-  background-image: url("../imagenes/foto3.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-animation: roll-in-left 0.6s ease-out both;
-  animation: roll-in-left 0.6s ease-out both;
-  animation-delay: 3s;
-}
-.foto4 {
-  grid-area: foto4;
-  background-image: url("../imagenes/foto4.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-animation: roll-in-left 0.6s ease-out both;
-  animation: roll-in-left 0.6s ease-out both;
-  animation-delay: 5s;
-}
-.foto5 {
-  grid-area: foto5;
-  background-image: url("../imagenes/foto5.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-animation: roll-in-left 0.6s ease-out both;
-  animation: roll-in-left 0.6s ease-out both;
-  animation-delay: 7s;
-}
-.foto6 {
-  grid-area: foto6;
-  background-image: url("../imagenes/foto6.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-animation: roll-in-left 0.6s ease-out both;
-  animation: roll-in-left 0.6s ease-out both;
-  animation-delay: 10s;
-}
-.foto7 {
-  grid-area: foto7;
-  background-image: url("../imagenes/foto7.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-animation: roll-in-left 0.6s ease-out both;
-  animation: roll-in-left 0.6s ease-out both;
-  animation-delay: 12s;
-}
-.foto8 {
-  grid-area: foto8;
-  background-image: url("../imagenes/foto8.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-animation: roll-in-left 0.6s ease-out both;
-  animation: roll-in-left 0.6s ease-out both;
-  animation-delay: 15s;
-}
-.foto9 {
-  grid-area: foto9;
-  background-image: url("../imagenes/foto9.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-animation: roll-in-left 0.6s ease-out both;
-  animation: roll-in-left 0.6s ease-out both;
-  animation-delay: 17s;
-}
-.foto10 {
-  grid-area: foto10;
-  background-image: url("../imagenes/foto10.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-animation: roll-in-left 0.6s ease-out both;
-  animation: roll-in-left 0.6s ease-out both;
-  animation-delay: 20s;
+  .foto2 {
+    grid-area: foto2;
+    background-image: url("../imagenes/foto2.jpeg");
+    @include fotogaleria();
+    animation-delay: 1s;
+  }
+
+  .foto3 {
+    grid-area: foto3;
+    background-image: url("../imagenes/foto3.jpeg");
+    @include fotogaleria();
+    animation-delay: 3s;
+  }
+
+  .foto4 {
+    grid-area: foto4;
+    background-image: url("../imagenes/foto4.jpeg");
+    @include fotogaleria();
+    animation-delay: 5s;
+  }
+
+  .foto5 {
+    grid-area: foto5;
+    background-image: url("../imagenes/foto5.jpeg");
+    @include fotogaleria();
+    animation-delay: 7s;
+  }
+
+  .foto6 {
+    grid-area: foto6;
+    background-image: url("../imagenes/foto6.jpeg");
+    @include fotogaleria();
+    animation-delay: 10s;
+  }
+
+  .foto7 {
+    grid-area: foto7;
+    background-image: url("../imagenes/foto7.jpeg");
+    @include fotogaleria();
+    animation-delay: 12s;
+  }
+
+  .foto8 {
+    grid-area: foto8;
+    background-image: url("../imagenes/foto8.jpeg");
+    @include fotogaleria();
+    animation-delay: 15s;
+  }
+
+  .foto9 {
+    grid-area: foto9;
+    background-image: url("../imagenes/foto9.jpeg");
+    @include fotogaleria();
+    animation-delay: 17s;
+  }
+
+  .foto10 {
+    grid-area: foto10;
+    background-image: url("../imagenes/foto10.jpeg");
+    @include fotogaleria();
+    animation-delay: 20s;
+  }
 }
 
 /*animaciones*/
