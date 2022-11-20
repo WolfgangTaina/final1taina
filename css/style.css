@@ -250,48 +250,39 @@ section .cordoba {
   .fotos .foto10 {
     animation-delay: 13s;
   }
-}
-/*contacto*/
-.formulario {
-  width: 90%;
-}
-
-.footer {
-  display: block;
-  background-color: black;
-}
-.footer .seguinos {
-  font-size: 50px;
-}
-.footer .red {
-  padding-right: 20px;
-}
-.footer .instagram {
-  height: 10vh;
-}
-
-.tiozombie {
-  font-size: 30px;
-  text-decoration: none;
-  font-style: italic;
-  color: white;
-}
-
-section {
-  background-color: black;
-  text-align: center;
-  color: white;
-}
-section .cordoba {
-  font-size: 2vh;
-}
-
-.coop {
-  position: fixed;
-  background-color: black;
-  width: 100%;
-  font-size: 2vh;
-  padding-bottom: 2vh;
+  /*contacto*/
+  .formulario {
+    width: 90%;
+  }
+  .footer {
+    display: block;
+  }
+  .footer .seguinos {
+    font-size: 50px;
+  }
+  .footer .red {
+    padding-right: 20px;
+  }
+  .footer .instagram {
+    height: 10vh;
+  }
+  .tiozombie {
+    font-size: 30px;
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+  }
+  section {
+    text-align: center;
+    color: white;
+  }
+  section .cordoba {
+    font-size: 2vh;
+  }
+  .coop {
+    font-size: 2vh;
+    padding-bottom: 2vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

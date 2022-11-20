@@ -44,48 +44,42 @@
       animation-delay: 13s;
     }
   }
-}
 
-/*contacto*/
+  /*contacto*/
 
-.formulario {
-  width: 90%;
-}
-.footer {
-  display: block;
-  background-color: black;
-  .seguinos {
-    font-size: 50px;
+  .formulario {
+    width: 90%;
   }
-  .red {
-    padding-right: 20px;
+  .footer {
+    display: block;
+    .seguinos {
+      font-size: 50px;
+    }
+    .red {
+      padding-right: 20px;
+    }
+
+    .instagram {
+      height: 10vh;
+    }
   }
 
-  .instagram {
-    height: 10vh;
+  .tiozombie {
+    font-size: 30px;
+    text-decoration: none;
+    font-style: italic;
+    color: $color-primary;
   }
-}
+  section {
+    text-align: center;
+    color: $color-primary;
 
-.tiozombie {
-  font-size: 30px;
-  text-decoration: none;
-  font-style: italic;
-  color: $color-primary;
-}
-section {
-  background-color: black;
-
-  text-align: center;
-  color: $color-primary;
-
-  .cordoba {
+    .cordoba {
+      font-size: 2vh;
+    }
+  }
+  .coop {
     font-size: 2vh;
+    padding-bottom: 2vh;
   }
-}
-.coop {
-  position: fixed;
-  background-color: black;
-  width: 100%;
-  font-size: 2vh;
-  padding-bottom: 2vh;
 }

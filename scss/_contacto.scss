@@ -3,6 +3,7 @@
 }
 .formulario {
   width: 50%;
+
   padding: 20px;
   margin: 0 auto;
 
@@ -22,7 +23,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: $backgraund-color;
   font-style: italic;
   color: $color-primary;
 
@@ -42,7 +43,7 @@
   color: $color-primary;
 }
 section {
-  background-color: black;
+  background-color: $backgraund-color;
   color: $color-primary;
   text-align: center;
   .cordoba {
