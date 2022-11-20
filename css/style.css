@@ -233,22 +233,22 @@ section .cordoba {
     animation-delay: 2s;
   }
   .fotos .foto5 {
-    animation-delay: 6s;
+    animation-delay: 4s;
   }
   .fotos .foto6 {
-    animation-delay: 6s;
+    animation-delay: 4s;
   }
   .fotos .foto7 {
-    animation-delay: 10s;
+    animation-delay: 6s;
   }
   .fotos .foto8 {
-    animation-delay: 10s;
+    animation-delay: 6s;
   }
   .fotos .foto9 {
-    animation-delay: 13s;
+    animation-delay: 8s;
   }
   .fotos .foto10 {
-    animation-delay: 13s;
+    animation-delay: 8s;
   }
   /*contacto*/
   .formulario {
