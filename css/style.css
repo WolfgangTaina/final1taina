@@ -11,12 +11,6 @@ main {
   background-image: url("../imagenes/fondorojo.jpg");
 }
 
-.titulo {
-  color: white;
-  font-style: oblique;
-  text-align: center;
-}
-
 .feria {
   height: 90vh;
   width: 100%;
@@ -156,10 +150,94 @@ main {
     opacity: 1;
   }
 }
-.fondoestrella {
-  background-image: url("../imagenes/fondorojo.jpg");
+.cajas {
+  display: grid;
+  width: 100%;
+  height: 200vh;
+  grid-template-columns: 1fr x4;
+  grid-template-rows: 1fr x6;
+  grid-template-areas: "tecj1 tecj1 tecj1 tecj1" "caja1 caja1 caja2 caja2" "caja1 caja1 caja2 caja2" "tecj2 tecj2 tecj2 tecj2" "caja3 caja3 caja4 caja4" "caja3 caja3 caja4 caja4";
+}
+.cajas .tecj1 {
+  grid-area: tecj1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-style: italic;
+  font-size: 50px;
+  text-decoration: underline;
+  -webkit-animation: text-shadow-pop-left 0.6s both;
+  animation: text-shadow-pop-left 0.6s both;
+  animation-delay: 500ms;
+}
+.cajas .caja1 {
+  grid-area: caja1;
+  background-image: url("../imagenes/remera1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cajas .caja2 {
+  grid-area: caja2;
+  background-image: url("../imagenes/remera2.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cajas .tecj2 {
+  grid-area: tecj2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-style: italic;
+  font-size: 50px;
+  text-decoration: underline;
+  -webkit-animation: text-shadow-pop-left 0.6s both;
+  animation: text-shadow-pop-left 0.6s both;
+  animation-delay: 500ms;
+  text-decoration: none;
+}
+.cajas .caja3 {
+  grid-area: caja3;
+  background-image: url("../imagenes/llavero1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cajas .caja4 {
+  grid-area: caja4;
+  background-image: url("../imagenes/llavero2.jpeg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+@-webkit-keyframes text-shadow-pop-left {
+  0% {
+    text-shadow: 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    text-shadow: -1px 0 #555, -2px 0 #555, -3px 0 #555, -4px 0 #555, -5px 0 #555, -6px 0 #555, -7px 0 #555, -8px 0 #555;
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+}
+@keyframes text-shadow-pop-left {
+  0% {
+    text-shadow: 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555, 0 0 #555;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    text-shadow: -1px 0 #555, -2px 0 #555, -3px 0 #555, -4px 0 #555, -5px 0 #555, -6px 0 #555, -7px 0 #555, -8px 0 #555;
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+}
 .formulario {
   width: 50%;
   padding: 20px;
@@ -175,8 +253,7 @@ main {
 }
 
 .col-12 {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  padding: 20px;
   text-align: center;
 }
 
