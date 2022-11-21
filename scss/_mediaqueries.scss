@@ -82,4 +82,44 @@
     font-size: 2vh;
     padding-bottom: 2vh;
   }
+  /*ubicacion*/
+  @mixin info {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: underline double;
+    padding: 30px;
+    background-color: $backgraund-color;
+    color: $color-primary;
+  }
+  .info {
+    display: grid;
+    width: 100%;
+    height: 85vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr (x4);
+    grid-template-areas:
+      "info1"
+      "info3"
+      "info2"
+      "info4";
+
+    .info1 {
+      grid-area: info1;
+      @include info();
+    }
+    .info2 {
+      grid-area: info2;
+      @include info();
+    }
+    .info3 {
+      grid-area: info3;
+      width: 100%;
+      height: 60vh;
+    }
+    .info4 {
+      grid-area: info4;
+      @include info();
+    }
+  }
 }
