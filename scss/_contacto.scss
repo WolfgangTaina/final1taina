@@ -22,6 +22,8 @@
   background-color: $backgraund-color;
   font-style: italic;
   color: $color-primary;
+  height: 111px;
+  align-items: center;
 
   .red {
     padding-right: 20px;
@@ -42,11 +44,4 @@ section {
   background-color: $backgraund-color;
   color: $color-primary;
   text-align: center;
-  .cordoba {
-    font-size: 2vh;
-  }
-}
-.coop {
-  font-size: 2vh;
-  padding-bottom: 2vh;
 }

@@ -29,9 +29,11 @@
     grid-area: info3;
     width: 500px;
     height: 50vh;
+    margin-left: 100px;
   }
   .info4 {
     grid-area: info4;
     @include info();
+    text-decoration: none;
   }
 }
