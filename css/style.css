@@ -174,6 +174,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: 100px;
 }
 .cajas .caja2 {
   grid-area: caja2;
@@ -181,6 +182,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-right: 100px;
 }
 .cajas .tecj2 {
   grid-area: tecj2;
@@ -199,6 +201,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: 100px;
 }
 .cajas .caja4 {
   grid-area: caja4;
@@ -206,6 +209,7 @@ main {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-right: 100px;
 }
 
 .info {
@@ -308,10 +312,19 @@ section {
     height: 200vh;
   }
   /*sublimacion*/
+  .tecj1 {
+    text-align: center;
+  }
   .cajas {
     display: grid;
     width: 100%;
     height: 110vh;
+  }
+  .caja3 {
+    margin-bottom: 20px;
+  }
+  .caja4 {
+    margin-bottom: 20px;
   }
   /*ubicacion*/
   .info {
@@ -332,7 +345,9 @@ section {
     grid-area: info3;
     width: 100%;
     height: 60vh;
-    margin-left: 0;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .info .info4 {
     grid-area: info4;
@@ -393,6 +408,36 @@ section {
   .fotos .foto10 {
     animation-delay: 8s;
   }
+  /*sublimacion*/
+  .cajas {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+  }
+  .cajas .tecj1 {
+    grid-area: tecj1;
+    text-align: center;
+    font-size: 40px;
+  }
+  .cajas .caja1 {
+    margin-left: 50px;
+  }
+  .cajas .caja2 {
+    margin-right: 50px;
+  }
+  .cajas .tecj2 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+  }
+  .cajas .caja3 {
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  .cajas .caja4 {
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
   /*contacto*/
   .formulario {
     width: 90%;
@@ -413,49 +458,35 @@ section {
     align-items: center;
   }
   /*ubicacion*/
+  .frame {
+    height: 50vh;
+  }
   .info {
     display: grid;
     width: 100%;
-    height: 85vh;
+    height: 70vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr x4;
     grid-template-areas: "info1" "info3" "info2" "info4";
   }
   .info .info1 {
     grid-area: info1;
-    text-align: center;
-    font-style: italic;
-    font-size: 30px;
-    text-decoration: underline double;
-    padding: 30px;
-    background-color: black;
-    color: white;
   }
   .info .info2 {
     grid-area: info2;
-    text-align: center;
-    font-style: italic;
-    font-size: 30px;
-    text-decoration: underline double;
-    padding: 30px;
-    background-color: black;
-    color: white;
+    padding: 0;
   }
   .info .info3 {
     grid-area: info3;
     width: 100%;
-    height: 60vh;
-    margin-left: 0;
+    height: 50vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0;
   }
   .info .info4 {
     grid-area: info4;
-    text-align: center;
-    font-style: italic;
-    font-size: 30px;
-    text-decoration: underline double;
-    padding: 30px;
-    background-color: black;
-    color: white;
+    padding: 0;
     text-decoration: none;
   }
 }

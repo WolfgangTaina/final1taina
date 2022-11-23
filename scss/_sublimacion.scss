@@ -31,6 +31,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: 100px;
   }
   .caja2 {
     grid-area: caja2;
@@ -38,6 +39,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-right: 100px;
   }
   .tecj2 {
     grid-area: tecj2;
@@ -50,6 +52,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: 100px;
   }
   .caja4 {
     grid-area: caja4;
@@ -57,5 +60,6 @@
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-right: 100px;
   }
 }

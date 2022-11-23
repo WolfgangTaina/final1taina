@@ -4,10 +4,19 @@
     height: 200vh;
   }
   /*sublimacion*/
+  .tecj1 {
+    text-align: center;
+  }
   .cajas {
     display: grid;
     width: 100%;
     height: 110vh;
+  }
+  .caja3 {
+    margin-bottom: 20px;
+  }
+  .caja4 {
+    margin-bottom: 20px;
   }
   /*ubicacion*/
   .info {
@@ -32,7 +41,9 @@
       grid-area: info3;
       width: 100%;
       height: 60vh;
-      margin-left: 0;
+      margin: 0;
+      padding-left: 50px;
+      padding-right: 50px;
     }
     .info4 {
       grid-area: info4;
@@ -106,6 +117,37 @@
       animation-delay: 8s;
     }
   }
+  /*sublimacion*/
+  .cajas {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+
+    .tecj1 {
+      grid-area: tecj1;
+      text-align: center;
+      font-size: 40px;
+    }
+    .caja1 {
+      margin-left: 50px;
+    }
+    .caja2 {
+      margin-right: 50px;
+    }
+    .tecj2 {
+      text-align: center;
+      font-size: 40px;
+      text-decoration: none;
+    }
+    .caja3 {
+      margin-left: 50px;
+      margin-bottom: 20px;
+    }
+    .caja4 {
+      margin-right: 50px;
+      margin-bottom: 20px;
+    }
+  }
 
   /*contacto*/
 
@@ -130,11 +172,13 @@
   }
 
   /*ubicacion*/
-
+  .frame {
+    height: 50vh;
+  }
   .info {
     display: grid;
     width: 100%;
-    height: 85vh;
+    height: 70vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr (x4);
     grid-template-areas:
@@ -145,21 +189,22 @@
 
     .info1 {
       grid-area: info1;
-      @include info();
     }
     .info2 {
       grid-area: info2;
-      @include info();
+      padding: 0;
     }
     .info3 {
       grid-area: info3;
       width: 100%;
-      height: 60vh;
-      margin-left: 0;
+      height: 50vh;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 0;
     }
     .info4 {
       grid-area: info4;
-      @include info();
+      padding: 0;
       text-decoration: none;
     }
   }
